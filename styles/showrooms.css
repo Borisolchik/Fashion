@@ -1,0 +1,144 @@
+.showrooms {
+    margin-top: 0;
+}
+
+.showroom-mob {
+    display: none;
+}
+
+.showrooms-title {
+    text-align: right;
+    padding-right: 66px;
+}
+
+.showroom-wrapper {
+    margin-top: 20px;
+    padding: 0 82px 194px 78px;
+    display: flex;
+    flex-direction: column;
+    gap: 111px;
+}
+
+.showroom {
+    display: flex;
+    gap: 60px;
+}
+
+.showroom-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.showroom-imgs__small {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showroom-content {
+    margin-top: 15px;
+}
+
+.showroom-content__title {
+    color: var(--brown);
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 1.35px;
+}
+
+.showroom-content__address {
+    margin-top: 28px;
+    color: var(--blgray);
+    text-align: justify;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.05px;
+}
+
+.showroom-content__text {
+    margin-top: 26px;
+    color: var(--blgray);
+    font-weight: 500;
+}
+
+
+.showroom-content__time {
+    color: var(--blgray);
+}
+
+.showroom-content__tel {
+    color: var(--blgray);
+}
+
+.showroom-content__desc {
+    margin-top: 16px;
+    color: var(--blgray);
+}
+
+.showroom-content__link {
+    text-decoration: underline;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+    .showrooms {
+        margin-top: 24px;
+    }
+
+    .showroom-desc {
+        display: none;
+    }
+
+    .showroom-mob {
+        display: block;
+    }
+    
+    .showrooms-title {
+        text-align: right;
+        padding-right: 30px;
+    }
+    
+    .showroom-wrapper {
+        margin-top: 54px;
+        padding: 0 10px 146px;
+        gap: 92px;
+    }
+    
+    .showroom {
+        flex-direction: column;
+        gap: 27px;
+    }
+    
+    .showroom-imgs {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .showroom-imgs__small {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .showroom-imgs__small img {
+        width: 30%;
+    }
+    
+    .showroom-content {
+        margin-top: 0px;
+    }
+    
+    .showroom-content__address {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    
+    .showroom-content__link {
+        margin-top: 75px;
+        text-align: right;
+        display: block;
+        padding-right: 20px;
+    }
+}

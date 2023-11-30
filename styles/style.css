@@ -1,0 +1,179 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	font-family: 'Bitter', serif;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+:root {
+	--black: #000;
+	--blgray:#565859;
+	--gray: #58585A;
+	--brown: #988676;
+	--white: #FFF;
+	--light-brown: #D2AD95;
+}
+
+.wrapper {
+	max-width: 1360px;
+	margin: 0 auto;
+}
+
+.pages {
+	margin-top: 45px;
+	padding-left: 68px;
+}
+
+.pages a:hover {
+	text-decoration: underline;
+}
+
+.pages-current {
+	color: var(--light-brown);
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.28px;
+}
+
+.pages-main {
+	color: var(--gray);
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.28px;
+}
+
+.title {
+	color: var(--brown);
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 1.75px;
+}
+
+.desc {
+	color: var(--black);
+	text-align: left;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 150%;
+	letter-spacing: 0.8px;
+}
+
+.link {
+	color: var(--white);
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 150%;
+	letter-spacing: 0.8px;
+}
+
+.subtitle {
+	color: var(--brown);
+	font-size: 27px;
+	font-weight: 600;
+	letter-spacing: 1.35px;
+}
+
+.last {
+	margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1359px) {
+	.pages {
+		margin-top: 31px;
+		padding-left: 50px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.pages {
+		margin-top: 81px;
+		padding-left: 10px;
+	}
+}

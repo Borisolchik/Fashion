@@ -1,0 +1,247 @@
+.swiper {
+    padding: 0 72px;
+}
+
+.bb {
+    margin-top: 50px;
+    padding: 0 24px;
+}
+
+/* .swiper-wrapper {
+    padding: 0 52px;
+ 
+} */
+
+.swiper-slide{
+    width: 213px;
+}
+
+.image-slider1 .swiper-button-prev {
+    content: url(/Fashion/images/icons/arr-1.svg);
+    width: 20px;
+    height: 20px;
+    left: 0;
+}
+
+.image-slider1 .swiper-button-next {
+    content: url(/Fashion/images/icons/arr-2.svg);
+    width: 20px;
+    height: 20px;
+    right: 0;
+}
+
+.brand {
+    margin-top: 56px;
+}
+
+.brand-content {
+    padding: 0 66px 0 92px;
+    display: flex;
+    gap: 84px;
+    align-items: center;
+}
+
+.brand-content__title {
+    color: var(--brown);
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.brand-content__subtitle {
+    color: var(--blgray);
+    margin-top: 43px;
+    font-weight: 700;
+}
+
+.brand-content__desc {
+    margin-top: 17px;
+}
+
+.brand-desc {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    padding: 0 212px 0 240px;
+}
+
+.brand-desc__text {
+    color: var(--blgray);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.brand-goods {
+    margin-top: 160px;
+    padding-bottom: 149px;
+}
+
+.brand-goods__title {
+    text-align: center;
+}
+
+/* .brand-goods__list {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+} */
+
+.swiper-slide img {
+    border-radius: 5px;
+    border: 0.5px solid var(--light-brown);
+    width: 100%;
+}
+
+.brand-goods__list-subtitle {
+    margin-top: 17px;
+    color: var(--brown);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.brand-goods__list-text {
+    margin-top: 13px;
+    color: var(--blgray);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+.brand-goods__list-price {
+    color: var(--blgray);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.brand-goods__info {
+    margin-top: 26px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.brand-goods__list-btn {
+    padding: 4px 16px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    border-radius: 12px;
+    background: var(--blgray);
+}
+
+.brand-goods__link {
+    color: var(--blgray);
+    display: block;
+    margin-top: 102px;
+    padding-right: 70px;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.brand-mob {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .bb {
+        margin-top: 53px;
+        padding: 0 10px;
+    }
+
+    .swiper {
+        padding: 0 88px;
+    }
+
+    .swiper-slide{
+        width: 165px;
+    }
+
+    .brand-desct {
+        display: none;
+    }
+
+    .brand-mob {
+        display: block;
+    }
+
+    .brand {
+        margin-top: 62px;
+    }
+
+    .brand-content {
+        margin-top: 23px;
+        padding: 0 10px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .brand-content img {
+        width: 100%;
+    }
+
+    .brand-content__title {
+        padding-left: 10px;
+        font-size: 27px;
+        font-weight: 600;
+        letter-spacing: 1.35px;
+    }
+
+    .brand-content__subtitle {
+        margin-top: 0px;
+    }
+
+    .brand-content__desc {
+        margin-top: 25px;
+    }
+
+    .brand-desc {
+        margin-top: 25px;
+        gap: 30px;
+        padding: 0 10px;
+    }
+
+    .brand-goods {
+        margin-top: 116px;
+        padding-bottom: 120px;
+    }
+
+    .brand-goods__title {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+    }
+
+    .brand-goods__list {
+        flex-wrap: wrap;
+    }
+
+    .brand-goods__list-text {
+        max-width: 140px;
+    }
+
+    .brand-goods__info {
+        margin-top: 13px;
+        flex-direction: column;
+        gap: 16px;
+        align-items: normal;
+    }
+
+    .brand-goods__list-btn {
+        padding: 4px 10px;
+        width: 106px;
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        border-radius: 12px;
+        background: var(--blgray);
+    }
+
+    .brand-goods__link {
+        padding-right: 30px;
+    }
+}

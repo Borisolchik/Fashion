@@ -1,0 +1,97 @@
+.brands {
+    margin-top: 0px;
+}
+
+.brands-title {
+    text-align: right;
+    padding-right: 98px;
+}
+
+.brands-wrapper {
+    margin-top: 5px;
+    padding: 0 94px 222px 93px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 91px 33px;
+}
+
+.brands-content__title {
+    margin-top: 50px;
+}
+
+.brands-content__desc {
+    margin-top: 36px;
+    max-width: 541px;
+    color: var(--blgray);
+}
+
+.brands-content__link {
+    max-width: 541px;
+    text-align: right;
+    text-decoration: underline;
+    margin-top: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.brands-content__img {
+    margin-top: 30px;
+}
+
+.brands-mob {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .brands-desc {
+        display: none;
+    }
+
+    .brands-wrapper img {
+        width: 100%;
+    }
+
+    .brands-mob {
+        display: block;
+    }
+
+    .brands {
+        margin-top: 24px;
+    }
+    
+    .brands-title {
+        text-align: right;
+        padding-right: 30px;
+    }
+    
+    .brands-wrapper {
+        margin-top: 5px;
+        padding: 0 10px 133px;
+        gap: 80px 33px;
+        justify-content: center;
+    }
+    
+    .brands-content__title {
+        margin-top: 80px;
+        margin-bottom: 23px;
+    }
+    
+    .brands-content__desc {
+        margin-top: 26px;
+    }
+    
+    .brands-content__link {
+        margin-top: 50px;
+        text-align: right;
+        padding-right: 19px;
+    }
+    
+    .brands-content__img {
+        margin-top: 0;
+    }
+    
+    .vv {
+        margin-top: 54px;
+    }
+}

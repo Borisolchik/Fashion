@@ -1,0 +1,43 @@
+.payment {
+    margin-top: 85px;
+    padding: 0 272px 79px 180px;
+}
+
+.payment :nth-child(3) {
+    margin-top: 30px;
+}
+
+.payment-desc {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1359px) {
+    .payment {
+        margin-top: 50px;
+        padding: 0 50px 50px;
+    }
+    
+    .payment-desc {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .payment-title {
+        font-size: 25px;
+    }
+
+    .payment {
+        margin-top: 24px;
+        padding: 0 10px 50px;
+    }
+    
+    .payment :nth-child(3) {
+        margin-top: 30px;
+    }
+    
+    .payment-desc {
+        margin-top: 25px;
+    }
+    
+}
