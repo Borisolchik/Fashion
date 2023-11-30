@@ -57,6 +57,7 @@
 
 .header-mainList__icons {
     display: flex;
+    align-items: center;
     gap: 35px;
 }
 
