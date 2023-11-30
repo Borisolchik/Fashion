@@ -44,7 +44,7 @@
 
 .catalog-goods__list {
     display: flex;
-    gap: 27px;
+    gap: 90px 27px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -75,14 +75,14 @@
 .catalog-goods__info {
     margin-top: 30px;
     display: flex;
-    gap: 23px;
+    gap: 11px;
     align-items: center;
 }
 
 .catalog-goods__list-btn {
-    padding: 4px 16px;
+    padding: 4px 8px;
     color: #FFF;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.9px;
     border-radius: 12px;
@@ -161,14 +161,14 @@
         margin-top: 13px;
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 11px;
         align-items: normal;
     }
     
     .catalog-goods__list-btn {
-        padding: 4px 10px;
+        padding: 4px 8px;
         color: #FFF;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         letter-spacing: 0.8px;
         border-radius: 12px;

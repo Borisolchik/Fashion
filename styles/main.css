@@ -573,6 +573,7 @@
 
     .main-showrooms {
         flex-direction: column;
+        border-radius: 0;
     }
 
     .showrooms-wrapper {
