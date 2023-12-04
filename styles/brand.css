@@ -7,27 +7,8 @@
     padding: 0 24px;
 }
 
-/* .swiper-wrapper {
-    padding: 0 52px;
- 
-} */
-
-.swiper-slide{
+.swiper-slide {
     width: 213px;
-}
-
-.image-slider1 .swiper-button-prev {
-    content: url(/Fashion/images/icons/arr-1.svg);
-    width: 20px;
-    height: 20px;
-    left: 0;
-}
-
-.image-slider1 .swiper-button-next {
-    content: url(/Fashion/images/icons/arr-2.svg);
-    width: 20px;
-    height: 20px;
-    right: 0;
 }
 
 .brand {
@@ -82,13 +63,6 @@
     text-align: center;
 }
 
-/* .brand-goods__list {
-    margin-top: 50px;
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-} */
-
 .swiper-slide img {
     border-radius: 5px;
     border: 0.5px solid var(--light-brown);
@@ -126,9 +100,9 @@
 }
 
 .brand-goods__list-btn {
-    padding: 4px 16px;
+    padding: 4px 4px;
     color: var(--white);
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 0.9px;
     border-radius: 12px;
@@ -148,6 +122,35 @@
     display: none;
 }
 
+/* Слайдер-похожее */
+.image-slider1 {
+    padding: 0 72px;
+}
+
+.multiple-items2 .slick-prev {
+    position: absolute;
+    left: 20px;
+    top: calc(50% - 9px);
+    cursor: pointer;
+}
+
+.multiple-items2 .slick-next {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 9px);
+    cursor: pointer;
+}
+
+.multiple-items2 .slick-list {
+    margin: 0 -15px;
+}
+
+.multiple-items2 .slick-slide {
+    margin: 0 15px;
+}
+
+/* Слайдер-похожее */
+
 @media screen and (max-width: 900px) {
     .bb {
         margin-top: 53px;
@@ -158,7 +161,7 @@
         padding: 0 88px;
     }
 
-    .swiper-slide{
+    .swiper-slide {
         width: 165px;
     }
 
@@ -234,7 +237,7 @@
 
     .brand-goods__list-btn {
         padding: 4px 10px;
-        width: 106px;
+        max-width: 160px;
         font-size: 16px;
         letter-spacing: 0.8px;
         border-radius: 12px;
@@ -244,4 +247,29 @@
     .brand-goods__link {
         padding-right: 30px;
     }
+
+    /*Слайдер-похожие*/
+    .multiple-items2 {
+        padding: 0 88px;
+    }
+
+    .multiple-items2 .slick-list {
+        margin: 0;
+    }
+
+    .multiple-items2 .slick-slide {
+        margin: 0;
+    }
+
+    .multiple-items2 .slick-prev {
+        left: 3px;
+        top: calc(50% - 4px);
+    }
+
+    .multiple-items2 .slick-next {
+        right: 3px;
+        top: calc(50% - 4px);
+    }
+
+    /*Слайдер-похожие*/
 }

@@ -373,7 +373,7 @@
     text-align: right;
 }
 
-/* Слайдер-дисконт */
+/* Слайдер-похожее */
 .multiple-items2 .slick-prev {
     position: absolute;
     left: 20px;
@@ -395,7 +395,8 @@
 .multiple-items2 .slick-slide {
     margin: 0 15px;
 }
-/* Слайдер-дисконт */
+
+/* Слайдер-похожее */
 
 
 @media screen and (max-width: 900px) {
@@ -661,7 +662,6 @@
     /*    display: flex;*/
     /*    gap: 35px;*/
     /*}*/
-
     .item-info__link {
         /*color: #565859;*/
         font-size: 18px;
@@ -708,7 +708,7 @@
     }
 
     /*Слайдер-похожие*/
-    .multiple-items2{
+    .multiple-items2 {
         padding: 0 88px;
     }
 
@@ -729,5 +729,6 @@
         right: 3px;
         top: calc(50% - 4px);
     }
+
     /*Слайдер-похожие*/
 }
