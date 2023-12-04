@@ -47,7 +47,7 @@ $('.multiple-items').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 2000,
     // speed: 1000,
     prevArrow: '<div class="slick-prev"><img src="../assets/images/icons/arr-1.svg" alt=""></div>',
     nextArrow: '<div class="slick-next"><img src="../assets/images/icons/arr-2.svg" alt=""></div>',
