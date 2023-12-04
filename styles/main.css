@@ -28,29 +28,53 @@
 }
 
 /* Слайдер-баннер */
-.slick-prev {
+.multiple-items .slick-prev {
     position: absolute;
     left: -39px;
     top: calc(50% - 9px);
     cursor: pointer;
 }
 
-.slick-next {
+.multiple-items .slick-next {
     position: absolute;
     right: -39px;
     top: calc(50% - 9px);
     cursor: pointer;
 }
 
-
-.slick-list {
+.multiple-items .slick-list {
     margin: 0 -11px;
 }
 
-.slick-slide {
+.multiple-items .slick-slide {
     margin: 0 11px;
 }
 /* Слайдер-баннер */
+
+
+/* Слайдер-дисконт */
+.multiple-items2 .slick-prev {
+    position: absolute;
+    left: 20px;
+    top: calc(50% - 9px);
+    cursor: pointer;
+}
+
+.multiple-items2 .slick-next {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 9px);
+    cursor: pointer;
+}
+
+.multiple-items2 .slick-list {
+    margin: 0 -15px;
+}
+
+.multiple-items2 .slick-slide {
+    margin: 0 15px;
+}
+/* Слайдер-дисконт */
 
 
 .image-slider1 .swiper-button-next {
@@ -159,6 +183,7 @@
 .main-discount__title {
     text-align: center;
     color: #FFF;
+    margin-bottom: 82px;
 }
 
 .main-discount__list {
@@ -204,9 +229,9 @@
 }
 
 .main-discount__list-btn {
-    padding: 4px 16px;
+    padding: 4px 4px;
     color: #565859;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 0.9px;
     border-radius: 12px;
@@ -383,34 +408,58 @@
     }
 
     /*Слайдер-баннер*/
-    .slick-slider {
+    .multiple-items .slick-slider {
         padding: 0 15px;
     }
 
-    .slick-list {
+    .multiple-items .slick-list {
         margin: 0;
     }
 
-    .slick-slide {
+    .multiple-items .slick-slide {
         margin: 0;
     }
 
-    .slick-prev {
+    .multiple-items .slick-prev {
         left: 3px;
         top: calc(50% - 4px);
     }
 
-    .slick-prev svg {
+    .multiple-items .slick-prev svg {
         width: 7px;
         height: 8px;
     }
 
-    .slick-next svg {
+    .multiple-items .slick-next svg {
         width: 7px;
         height: 8px;
     }
 
-    .slick-next {
+    .multiple-items .slick-next {
+        right: 3px;
+        top: calc(50% - 4px);
+    }
+    /*Слайдер-баннер*/
+
+    /*Слайдер-баннер*/
+    .multiple-items2 .slick-slider {
+        padding: 0 15px;
+    }
+
+    .multiple-items2 .slick-list {
+        margin: 0;
+    }
+
+    .multiple-items2 .slick-slide {
+        margin: 0;
+    }
+
+    .multiple-items2 .slick-prev {
+        left: 3px;
+        top: calc(50% - 4px);
+    }
+
+    .multiple-items2 .slick-next {
         right: 3px;
         top: calc(50% - 4px);
     }
@@ -509,10 +558,17 @@
         padding-bottom: 58px;
     }
 
+    .main-discount__title-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .main-discount__title {
         text-align: left;
         padding-left: 10px;
         color: #FFF;
+        margin-bottom: 0;
     }
 
     .main-discount__list {
@@ -537,11 +593,11 @@
         padding: 4px 10px;
         font-size: 16px;
         letter-spacing: 0.8px;
-        width: 106px;
+        max-width: 160px;
     }
 
     .main-discount__link {
-        margin-top: 50px;
+        margin-top: 0;
         padding-right: 29px;
     }
 
