@@ -38,8 +38,7 @@
 }
 
 .header-list {
-    margin-top: 37.62px;
-    padding: 0 142px 0 0;
+    padding: 38px 142px 0 0;
     display: flex;
     gap: 52px;
 }
@@ -93,6 +92,23 @@
     letter-spacing: 0.8px;
 }
 
+.header-scroll {
+    display: none;
+    padding: 0 26px;
+}
+
+.header_fixed {
+    position: fixed;
+    display: block;
+    top: 0;
+    background: white;
+    z-index: 9999;
+}
+
+.header_fixed .header-list {
+    padding: 25px 142px 20px 42px;
+}
+
 @media screen and (max-width: 1359px) and (min-width: 901px) {
     .header-mob {
         display: none;
@@ -113,6 +129,9 @@
 }
 
 @media screen and (max-width: 900px) {
+    .header-scroll {
+        display: none!important;
+    }
     .header {
         display: none;
     }

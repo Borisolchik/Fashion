@@ -1,3 +1,15 @@
+$(function() {
+    let header = $('.header-scroll');
+
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 80) {
+            header.addClass('header_fixed');
+        } else {
+            header.removeClass('header_fixed');
+        }
+    });
+});
+
 const isMobile = {
     Android: function () {
         return navigator.userAgent.match(/Android/i)
@@ -65,3 +77,4 @@ function openInfo(evt, info) {
     document.getElementById(info).style.display = "block";
     evt.currentTarget.className += " active";
 }
+

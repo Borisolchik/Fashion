@@ -156,9 +156,9 @@
 }
 
 .main-goods__list-btn {
-    padding: 4px 16px;
+    padding: 4px 4px;
     color: #FFF;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 0.9px;
     border-radius: 12px;
@@ -538,7 +538,7 @@
         letter-spacing: 0.8px;
         border-radius: 12px;
         background: var(--blgray);
-        width: 106px;
+        max-width: 160px;
     }
 
     .main-goods__list-text {

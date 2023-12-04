@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/item.css">
+    <link rel="stylesheet" href="../styles/catalog.css">
     <link rel="stylesheet" href="../styles/footer.css">
 </head>
 
@@ -93,22 +91,22 @@
         <ul class="header-list">
             <div class="header-mainList-block1">
                 <li class="header-list__item cat"><a class="header-list__item-link link"
-                                                     href="pagepage-catalog.html">Каталог</a></li>
+                                                     href="page-catalog.html">Каталог</a></li>
                 <li class="header-list__item ppl"><a class="link header-list__item-link"
-                                                     href="pagepage-catalog.html">Женщинам</a></li>
+                                                     href="page-catalog-women.html">Женщинам</a></li>
             </div>
             <li class="header-list__item ppl"><a class="link header-list__item-link"
-                                                 href="pagepage-catalog.html">Мужчинам</a></li>
+                                                 href="page-catalog.html">Мужчинам</a></li>
             <li class="header-list__item"><a class="link header-list__item-link"
-                                             href="pagepage-catalog.html">Новинки</a></li>
+                                             href="page-catalog.html">Новинки</a></li>
             <li class="header-list__item"><a class="link header-list__item-link"
-                                             href="pagepage-catalog.html">Дисконт</a></li>
+                                             href="page-catalog.html">Дисконт</a></li>
             <li class="header-list__item"><a class="link header-list__item-link"
-                                             href="pagepage-catalog.html">Одежда</a></li>
+                                             href="page-catalog.html">Одежда</a></li>
             <li class="header-list__item"><a class="link header-list__item-link"
-                                             href="pagepage-catalog.html">Обувь</a></li>
+                                             href="page-catalog.html">Обувь</a></li>
             <li class="header-list__item"><a class="link header-list__item-link"
-                                             href="pagepage-catalog.html">Аксессуары</a></li>
+                                             href="page-catalog.html">Аксессуары</a></li>
             <li class="header-list__item">
                 <div class="header-mainList__icons">
                     <a href="#">
@@ -221,283 +219,36 @@
         </a>
         <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
         <a href="#">
-            <span class="pages-main">Одежда</span>
+            <span class="pages-current">Женщинам</span>
         </a>
-        <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-        <a href="#">
-            <span class="pages-main">Fedeli</span>
-        </a>
-        <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-        <span class="pages-current">Яркое платье из кашемира</span>
-        <a class="itm" href="page-catalog.html"><img src="../assets/images/icons/arrow-1.svg" alt=""></a>
     </div>
-    <div class="item-wrapper">
-        <div class="item-imgs">
-            <div class="item-imgs__block1">
-                <img src="../assets/images/item-1.png" alt="">
-                <img src="../assets/images/item-1.png" alt="">
-            </div>
-            <div class="item-imgs__block2">
-                <img src="../assets/images/item-2.png" alt="">
-                <img src="../assets/images/item-3.png" alt="">
-                <img src="../assets/images/item-4.png" alt="">
-                <img src="../assets/images/item-2.png" alt="">
-                <img src="../assets/images/item-3.png" class="no" alt="">
-                <img src="../assets/images/item-4.png" class="no" alt="">
-            </div>
-        </div>
-        <div class="item-content">
-            <h2 class="item-content__title">Яркое платье из кашемира</h2>
-            <h3 class="item-content__subtitle">Dolce & Gabbana</h3>
-            <p class="item-content__desc">Расслабленный силуэт и свободный крой, не сковывающий движений. Пояс
-                позволяет регулировать посадку. Неэластичная ткань средней плотности. Размер соответствует
-                указанному на этикетке.</p>
-            <div class="item-content-info">
-                <div class="item-content-info-thing">
-                    <p class="item-content_choose">Состав: <span>100% хлопок</span></p>
-                    <p class="item-content_choose item-content_choose-article">Артикул: <span>678555431А</span></p>
-                </div>
-                <div class="item-content-info-size">
-                    <select class="size-select">
-                        <option value="0" selected>Выберите размер</option>
-                        <option value="sizeS">S</option>
-                        <option value="sizeM">M</option>
-                        <option value="sizeL">L</option>
-                    </select>
-                </div>
-            </div>
-            <div class="item-content__price-box">
-                <div class="item-content__price">535 BYN</div>
-                <button class="item-content__btn">Оставить заявку</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="item-info">
-        <div class="tab">
-            <button class="tablinks item-info__link active" onclick="openInfo(event, 'Description')">Описание</button>
-            <button class="tablinks item-info__link" onclick="openInfo(event, 'Payment')">Оплата</button>
-            <button class="tablinks item-info__link" onclick="openInfo(event, 'Delivery')">Доставка</button>
-        </div>
-
-        <div id="Description" class="tabcontent" style="display: block;">
-            <div class="item-info__desc">
-                <p>ZIMMERMANN <br>
-                    шелковое платье Luminosity с цветочным принтом<br>
-                    Бордовый, шелк, цветочный принт, кулиска на талии,<br> дизайн со сборками, высокий воротник,
-                    подплечники,<br> длинные рукава, плиссированная юбка и длина до<br> середины голени.<br>
-                    Состав<br>
-                    Шелк 100%<br>
-                    Рекомендации по уходу<br>
-                    Только сухая чистка<br>
-                    Модель и образ<br>
-                    Рост модели: 1,8 м. Размер на модели: 1.<br>
-                    Образ дополняют: Chloé сапоги Edith 120<br>
-                    Артикулы товара<br>
-                    Артикул FARFETCH 20044993<br>
-                    Артикул бренда: 4536DF231</p>
-                <p>Информация о посадке<br>
-                    Расслабленный силуэт и свободный крой, не сковывающий движений<br>
-                    Пояс позволяет регулировать посадку<br>
-                    Неэластичная ткань средней плотности<br>
-                    Размер соответствует указанному на этикетке. Рекомендуем выбрать ваш привычный размер<br>
-                    Параметры модели<br>
-                    дюймсм<br>
-                    Рост1,8 мГрудь87 смБедра91 смТалия63 см<br>
-                    Рост модели: 1,8 м. Размер на модели: 1.</p>
-            </div>
-        </div>
-
-        <div id="Payment" class="tabcontent">
-            <div class="item-info__desc">
-                <p>Приятно, граждане, наблюдать, как представители современных социальных резервов могут быть
-                    обнародованы. Следует отметить, что начало повседневной работы по формированию позиции требует от
-                    нас анализа первоочередных требований. Высокий уровень вовлечения представителей целевой аудитории
-                    является четким доказательством простого факта: убеждённость некоторых оппонентов играет важную роль
-                    в формировании вывода текущих активов. Безусловно, разбавленное изрядной долей эмпатии, рациональное
-                    мышление создаёт необходимость включения в производственный план целого ряда внеочередных
-                    мероприятий с учётом комплекса благоприятных перспектив.</p>
-
-                <p>Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности является
-                    качественно новой ступенью анализа существующих паттернов поведения. И нет сомнений, что сделанные
-                    на базе интернет-аналитики выводы объявлены нарушающими общечеловеческие нормы этики и морали. В
-                    рамках спецификации современных стандартов, ключевые особенности структуры проекта объявлены
-                    нарушающими общечеловеческие нормы этики и морали.</p>
-            </div>
-        </div>
-
-        <div id="Delivery" class="tabcontent">
-            <div class="item-info__desc">
-                <p>ZIMMERMANN <br>
-                    шелковое платье Luminosity с цветочным принтом<br>
-                    Бордовый, шелк, цветочный принт, кулиска на талии,<br> дизайн со сборками, высокий воротник,
-                    подплечники,<br> длинные рукава, плиссированная юбка и длина до<br> середины голени.<br>
-                    Состав<br>
-                    Шелк 100%<br>
-                    Рекомендации по уходу<br>
-                    Только сухая чистка<br>
-                    Модель и образ<br>
-                    Рост модели: 1,8 м. Размер на модели: 1.<br>
-                    Образ дополняют: Chloé сапоги Edith 120<br>
-                    Артикулы товара<br>
-                    Артикул FARFETCH 20044993<br>
-                    Артикул бренда: 4536DF231</p>
-                <p>Информация о посадке<br>
-                    Расслабленный силуэт и свободный крой, не сковывающий движений<br>
-                    Пояс позволяет регулировать посадку<br>
-                    Неэластичная ткань средней плотности<br>
-                    Размер соответствует указанному на этикетке. Рекомендуем выбрать ваш привычный размер<br>
-                    Параметры модели<br>
-                    дюймсм<br>
-                    Рост1,8 мГрудь87 смБедра91 смТалия63 см<br>
-                    Рост модели: 1,8 м. Размер на модели: 1.</p>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="item-content__price-double">
-        <div class="item-content__price">
-            535 BYN
-        </div>
-        <div class="item-content-info-size">
-            <select class="size-select">
-                <option value="0" selected>Выберите размер</option>
-                <option value="sizeS">S</option>
-                <option value="sizeM">M</option>
-                <option value="sizeL">L</option>
-            </select>
-        </div>
-    </div>
-    <div class="item-content__price-double-mobile">
-        <div class="item-content-info-size">
-            <select class="size-select">
-                <option value="0" selected>Выберите размер</option>
-                <option value="sizeS">S</option>
-                <option value="sizeM">M</option>
-                <option value="sizeL">L</option>
-            </select>
-        </div>
-        <div class="item-content__price-double-mobile-box">
-            <div class="item-content__price">
-                535 BYN
-            </div>
-            <button class="item-content__btn">Оставить заявку</button>
-        </div>
-    </div>
-    <button class="item-content__btn bt no-mobile">Оставить заявку</button>
-    <div class="main-goods">
-        <h2 class="main-goods__title title">Дополните образ</h2>
-        <ul class="main-goods__list">
-            <li>
-                <img src="../assets/images/brand-1.png" alt="">
-                <h3 class="main-goods__list-subtitle">Dolce & Gabbana</h3>
-                <p class="main-goods__list-text">Яркое платье из кашемира</p>
-                <div class="main-goods__info">
-                    <p class="main-goods__list-price">535 BYN</p>
-                    <button class="main-goods__list-btn btn-small">Оставить заявку</button>
-                </div>
+    <h2 class="catalog-title title">Женщинам</h2>
+    <div class="catalog-wrapper">
+        <ul class="catalog-brands__list catalog-desc">
+            <li class="catalog-brands__list-item"><a class="catalog-brands__list-link" href="">Astorflex</a></li>
+            <li class="catalog-brands__list-item"><a class="catalog-brands__list-link" href="">Berwich</a></li>
+            <li class="catalog-brands__list-item"><a class="catalog-brands__list-link" href="">Drumohr</a></li>
+            <li class="catalog-brands__list-item"><a class="catalog-brands__list-link active" href="">Fedeli</a>
             </li>
-            <li>
-                <img src="../assets/images/brand-1.png" alt="">
-                <h3 class="main-goods__list-subtitle">Dolce & Gabbana</h3>
-                <p class="main-goods__list-text">Яркое платье из кашемира</p>
-                <div class="main-goods__info">
-                    <p class="main-goods__list-price">535 BYN</p>
-                    <button class="main-goods__list-btn btn-small">Оставить заявку</button>
-                </div>
-            </li>
-            <li>
-                <img src="../assets/images/brand-2.png" alt="">
-                <h3 class="main-goods__list-subtitle">Dolce & Gabbana</h3>
-                <p class="main-goods__list-text">Яркое платье из кашемира</p>
-                <div class="main-goods__info">
-                    <p class="main-goods__list-price">535 BYN</p>
-                    <button class="main-goods__list-btn btn-small">Оставить заявку</button>
-                </div>
-            </li>
-            <li>
-                <img src="../assets/images/brand-3.png" alt="">
-                <h3 class="main-goods__list-subtitle">Dolce & Gabbana</h3>
-                <p class="main-goods__list-text">Яркое платье из кашемира</p>
-                <div class="main-goods__info">
-                    <p class="main-goods__list-price">535 BYN</p>
-                    <button class="main-goods__list-btn btn-small">Оставить заявку</button>
-                </div>
+            <li class="catalog-brands__list-item"><a class="catalog-brands__list-link" href="">Gran Sasso</a></li>
+            <li class="catalog-brands__list-item"><a class="catalog-brands__list-link" href="">Incotex</a></li>
+            <li class="catalog-brands__list-item"><a class="catalog-brands__list-link" href="">Werner Christ</a>
             </li>
         </ul>
-    </div>
-    <div class="main-discount">
-        <h2 class="main-discount__title title">Похожие товары</h2>
-
-        <div class="bb">
-            <div class="multiple-items2 image-slider1">
-                <div class="image-slider__slide swiper-slide">
-                    <img src="../assets/images/brand-1.png" alt="">
-                    <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
-                    <p class="main-discount__list-text">Яркое платье из кашемира</p>
-                    <div class="main-discount__info">
-                        <p class="main-discount__list-price">535 BYN</p>
-                        <button class="main-discount__list-btn">Оставить заявку</button>
-                    </div>
-                </div>
-                <div class="image-slider__slide swiper-slide">
-                    <img src="../assets/images/brand-1.png" alt="">
-                    <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
-                    <p class="main-discount__list-text">Яркое платье из кашемира</p>
-                    <div class="main-discount__info">
-                        <p class="main-discount__list-price">535 BYN</p>
-                        <button class="main-discount__list-btn">Оставить заявку</button>
-                    </div>
-                </div>
-                <div class="image-slider__slide swiper-slide">
-                    <img src="../assets/images/brand-2.png" alt="">
-                    <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
-                    <p class="main-discount__list-text">Яркое платье из кашемира</p>
-                    <div class="main-discount__info">
-                        <p class="main-discount__list-price">535 BYN</p>
-                        <button class="main-discount__list-btn">Оставить заявку</button>
-                    </div>
-                </div>
-                <div class="image-slider__slide swiper-slide">
-                    <img src="../assets/images/brand-3.png" alt="">
-                    <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
-                    <p class="main-discount__list-text">Яркое платье из кашемира</p>
-                    <div class="main-discount__info">
-                        <p class="main-discount__list-price">535 BYN</p>
-                        <button class="main-discount__list-btn">Оставить заявку</button>
-                    </div>
-                </div>
-                <div class="image-slider__slide swiper-slide">
-                    <img src="../assets/images/brand-3.png" alt="">
-                    <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
-                    <p class="main-discount__list-text">Яркое платье из кашемира</p>
-                    <div class="main-discount__info">
-                        <p class="main-discount__list-price">535 BYN</p>
-                        <button class="main-discount__list-btn">Оставить заявку</button>
-                    </div>
-                </div>
-                <div class="image-slider__slide swiper-slide">
-                    <img src="../assets/images/brand-1.png" alt="">
-                    <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
-                    <p class="main-discount__list-text">Яркое платье из кашемира</p>
-                    <div class="main-discount__info">
-                        <p class="main-discount__list-price">535 BYN</p>
-                        <button class="main-discount__list-btn">Оставить заявку</button>
-                    </div>
-                </div>
-                <div class="image-slider__slide swiper-slide">
-                    <img src="../assets/images/brand-1.png" alt="">
-                    <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
-                    <p class="main-discount__list-text">Яркое платье из кашемира</p>
-                    <div class="main-discount__info">
-                        <p class="main-discount__list-price">535 BYN</p>
-                        <button class="main-discount__list-btn">Оставить заявку</button>
-                    </div>
-                </div>
-            </div>
+        <div class="catalog-mob">
+            <a class="catalog-brands__list-link" href="">Astorflex</a>
+            <a class="catalog-brands__list-link" href="">Berwich</a>
+            <a class="catalog-brands__list-link" href="">Drumohr</a>
+            <a class="catalog-brands__list-link active" href="">Fedeli</a>
+            <a class="catalog-brands__list-link" href="">Gran Sasso</a>
+            <a class="catalog-brands__list-link" href="">Incotex</a>
+            <a class="catalog-brands__list-link" href="">Werner Christ</a>
+        </div>
+        <div class="catalog-goods">
+            <ul class="catalog-goods__list" id="women"></ul>
         </div>
     </div>
+
 </div>
 
 <footer class="footer">
@@ -553,10 +304,7 @@
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="../js/swiperBrand.js"></script>
 <script src="../js/header.js"></script>
 <script src="../js/index.js"></script>
 </body>
-
 </html>
