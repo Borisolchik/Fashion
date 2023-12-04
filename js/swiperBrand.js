@@ -46,12 +46,14 @@ $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
     // speed: 1000,
     prevArrow: '<div class="slick-prev"><img src="../assets/images/icons/arr-1.svg" alt=""></div>',
     nextArrow: '<div class="slick-next"><img src="../assets/images/icons/arr-2.svg" alt=""></div>',
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 900,
             settings: {
                 slidesToShow: 1
             }
