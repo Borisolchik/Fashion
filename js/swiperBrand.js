@@ -21,7 +21,8 @@ new Swiper('.image-slider1', {
 
 new Swiper('.image-slider2', {
     speed: 700,
-    spaceBetween: 23,
+    spaceBetween: 22,
+    slidesPerView: 3,
     navigation: {
         nextEl: '.image-slider2 .swiper-button-next',
         prevEl: '.image-slider2 .swiper-button-prev',
@@ -36,9 +37,24 @@ new Swiper('.image-slider2', {
     //     delay: 3000,
     //     disableOnInteraction: false,
     // },
-    slidesPerView: 'auto',
+    // slidesPerView: 'auto',
     slidesPerGroup: 1,
 });
 
 
-  
+$('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    // speed: 1000,
+    prevArrow: '<div class="slick-prev"><img src="../assets/images/icons/arr-1.svg" alt=""></div>',
+    nextArrow: '<div class="slick-next"><img src="../assets/images/icons/arr-2.svg" alt=""></div>',
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+        },
+    ]
+});
