@@ -26,8 +26,12 @@ $('.multiple-items').slick({
     autoplay: true,
     autoplaySpeed: 2000,
     speed: 1000,
-    prevArrow: '<div class="slick-prev"><img src="assets/images/icons/arr-1.svg" alt=""></div>',
-    nextArrow: '<div class="slick-next"><img src="assets/images/icons/arr-2.svg" alt=""></div>',
+    prevArrow: '<div class="slick-prev"><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+        '<path d="M0.0143415 8.60912L15.0267 16.8824L15.0019 0.290927L0.0143415 8.60912Z" fill="#D2AD95"/>\n' +
+        '</svg>\n</div>',
+    nextArrow: '<div class="slick-next"><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+        '<path d="M15.014 8.60912L0.00157572 16.8824L0.0264159 0.290927L15.014 8.60912Z" fill="#D2AD95"/>\n' +
+        '</svg>\n</div>',
     responsive: [
         {
             breakpoint: 900,

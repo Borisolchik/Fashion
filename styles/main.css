@@ -30,29 +30,18 @@
 /* Слайдер-баннер */
 .slick-prev {
     position: absolute;
-    width: 20px;
-    height: 20px;
-    left: -44px;
-    top: calc(50% - 10px);
+    left: -39px;
+    top: calc(50% - 9px);
     cursor: pointer;
-}
-
-.slick-prev img{
-    width: 100%;
 }
 
 .slick-next {
     position: absolute;
-    width: 20px;
-    height: 20px;
-    right: -44px;
-    top: calc(50% - 10px);
+    right: -39px;
+    top: calc(50% - 9px);
     cursor: pointer;
 }
 
-.slick-next img{
-    width: 100%;
-}
 
 .slick-list {
     margin: 0 -11px;
@@ -407,15 +396,21 @@
     }
 
     .slick-prev {
-        width: 8px;
-        height: 8px;
         left: 3px;
         top: calc(50% - 4px);
     }
 
-    .slick-next {
-        width: 8px;
+    .slick-prev svg {
+        width: 7px;
         height: 8px;
+    }
+
+    .slick-next svg {
+        width: 7px;
+        height: 8px;
+    }
+
+    .slick-next {
         right: 3px;
         top: calc(50% - 4px);
     }
