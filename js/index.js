@@ -358,6 +358,7 @@ function productsGenderWomenWiew() {
         imgElement.setAttribute('src', '../assets/images/catalog/' + `${item.image}`);
         aElement.appendChild(imgElement);
 
+
         const h3Element = document.createElement('h3');
         h3Element.className = 'catalog-goods__list-subtitle';
         h3Element.innerText = `${item.brand}`;

@@ -22,7 +22,17 @@
 }
 
 .footer-contacts a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    color: var(--brown);
+}
+
+.footer-contacts a svg path{
+    transition: 0.7s;
+}
+
+.footer-contacts a:hover svg path{
+    /*text-decoration: underline;*/
+    fill: var(--brown);
 }
 
 .footer-nav {
@@ -47,7 +57,8 @@
 }
 
 .footer-list a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    color: var(--brown);
 }
 
 .footer-list:last-child {

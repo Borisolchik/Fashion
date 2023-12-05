@@ -164,6 +164,7 @@
         margin: 0 auto;
     }
 
+
     .header__logo {
         z-index: 5;
         position: relative;
@@ -296,9 +297,9 @@
             gap: 30px;
         }
 
-        .header-imgs :first-child {
-            width: 27px;
-        }
+        /*.header-imgs :first-child {*/
+        /*    width: 27px;*/
+        /*}*/
 
         .menu__icon {
             z-index: 5;
