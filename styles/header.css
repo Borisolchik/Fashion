@@ -1,5 +1,5 @@
 .header {
-    padding: 26px 67px 26.72px 68px;
+    padding: 26px 67px 26px 68px;
 }
 
 .header-mainList {
@@ -17,7 +17,7 @@
 }
 
 .header-mainList a:hover {
-    text-decoration: underline;
+    color: var(--brown);
 }
 
 .header-mainList-block1 {
@@ -38,13 +38,14 @@
 }
 
 .header-list {
-    padding: 38px 142px 0 0;
+    padding: 38px 0 0 0;
     display: flex;
+    justify-content: center;
     gap: 52px;
 }
 
 .header-list a:hover {
-    text-decoration: underline;
+    color: var(--brown);
 }
 
 .header-list__item-link {
@@ -65,7 +66,7 @@
 }
 
 .header-mainList__icons a:hover svg path{
-    fill: rgba(86, 88, 89, 0.85);
+    fill: var(--brown);
 }
 
 .header-mainList__logo {
@@ -99,14 +100,17 @@
 
 .header_fixed {
     position: fixed;
-    display: block;
+    display: flex;
+    justify-content: center;
     top: 0;
     background: white;
     z-index: 9999;
+    width: 100%;
+    box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
 .header_fixed .header-list {
-    padding: 25px 142px 20px 42px;
+    padding: 25px 42px 20px 42px;
 }
 
 @media screen and (max-width: 1359px) and (min-width: 901px) {

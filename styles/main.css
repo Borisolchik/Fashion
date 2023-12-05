@@ -409,7 +409,7 @@
 
     /*Слайдер-баннер*/
     .multiple-items{
-        padding: 0 15px;
+        padding: 0;
     }
 
     .multiple-items .slick-list {
@@ -423,6 +423,7 @@
     .multiple-items .slick-prev {
         left: 0;
         top: calc(50% - 4px);
+        display: none !important;
     }
 
     .multiple-items .slick-prev svg {
@@ -438,6 +439,7 @@
     .multiple-items .slick-next {
         right: 0;
         top: calc(50% - 4px);
+        display: none !important;
     }
     /*Слайдер-баннер*/
 

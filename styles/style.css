@@ -93,7 +93,7 @@ h6 {
 
 :root {
     --black: #000;
-    --blgray: #565859;
+    --blgray: rgba(86, 88, 89, 0.8);
     --gray: #58585A;
     --brown: #988676;
     --white: #FFF;
