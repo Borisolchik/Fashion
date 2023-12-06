@@ -15,7 +15,8 @@ $('.multiple-items').slick({
         {
             breakpoint: 900,
             settings: {
-                slidesToShow: 1
+                slidesToShow: 1,
+                arrows : false
             }
         },
     ]
@@ -37,8 +38,7 @@ $('.multiple-items2').slick({
             breakpoint: 900,
             settings: {
                 slidesToShow: 1,
-                speed: 1,
-                arrows : false
+                speed: 1
             }
         },
     ]
