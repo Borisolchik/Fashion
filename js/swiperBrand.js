@@ -38,7 +38,7 @@ $('.multiple-items2').slick({
             breakpoint: 900,
             settings: {
                 slidesToShow: 1,
-                speed: 1
+                speed: 1000
             }
         },
     ]
