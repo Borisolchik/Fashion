@@ -26,13 +26,22 @@
     color: var(--blgray);
 }
 
+.brands-content__link-block {
+    display: flex;
+    justify-content: end;
+}
+
 .brands-content__link {
     max-width: 541px;
     text-align: right;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     margin-top: 20px;
     display: block;
     cursor: pointer;
+}
+
+.brands-content__link:hover {
+    color: #988676;
 }
 
 .brands-content__img {

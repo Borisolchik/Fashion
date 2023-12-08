@@ -126,7 +126,7 @@ h6 {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 .title {
@@ -181,7 +181,7 @@ h6 {
 .one-photo {
     visibility: visible;
     opacity: 100;
-    transition: visibility ease 0s, opacity ease 1s;
+    transition: visibility ease 1s, opacity ease 1.5s;
 
 }
 
@@ -191,7 +191,11 @@ h6 {
     position: absolute;
     top:0;
     left:0;
-    transition: visibility ease 0s, opacity ease 2s;
+    transition: visibility ease 1s, opacity ease 1.5s;
+}
+
+.two-photo.two-photo-main {
+    top: 2px;
 }
 
 .main-goods__list-item-photo:hover .one-photo {

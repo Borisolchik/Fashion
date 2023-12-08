@@ -4,9 +4,13 @@
 
 .header-mainList {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     /*gap: 42px;*/
     align-items: center;
+}
+
+.header-mainList-item {
+    margin-right: 42px;
 }
 
 .header-mainList a {
@@ -73,6 +77,11 @@
     display: flex;
     gap: 132px;
     align-items: center;
+    margin-left: 90px;
+}
+
+.header-mainList-icons {
+    margin-left: auto;
 }
 
 .header-mob {
@@ -110,7 +119,7 @@
 }
 
 .header_fixed .header-list {
-    padding: 25px 42px 20px 42px;
+    padding: 20px 42px 13px 42px;
 }
 
 @media screen and (max-width: 1359px) and (min-width: 901px) {

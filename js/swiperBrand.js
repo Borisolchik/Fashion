@@ -26,6 +26,8 @@ $('.multiple-items2').slick({
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
     speed: 1000,
     prevArrow: '<div class="slick-prev"><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
         '<path d="M0.0143415 8.60912L15.0267 16.8824L15.0019 0.290927L0.0143415 8.60912Z" fill="#D2AD95"/>\n' +
