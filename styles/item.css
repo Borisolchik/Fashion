@@ -191,6 +191,10 @@
     padding: 6px 18px;
 }
 
+.item-content__btn:hover {
+    background: #988676;
+}
+
 .item-info {
     margin-top: 76px;
     padding: 0 70px 0 150px;

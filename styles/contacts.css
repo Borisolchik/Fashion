@@ -38,12 +38,28 @@
     justify-content: center;
 }
 
+.contacts-imgs a svg path {
+    transition: 1s;
+}
+
+.contacts-imgs a:hover svg path {
+    fill: #D2AD95;
+}
+
 .contacts-tel {
     color: var(--blgray);
 }
 
+.contacts-tel:hover {
+    color: #D2AD95;
+}
+
 .contacts-mail {
-    color: var(--blgray);   
+    color: var(--blgray);
+}
+
+.contacts-mail:hover {
+    color: #D2AD95;
 }
 
 @media screen and (max-width: 1359px) {

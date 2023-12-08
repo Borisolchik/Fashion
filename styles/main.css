@@ -143,7 +143,7 @@
 }
 
 .main-goods__list-subtitle a:hover{
-    color: #776455;
+    color: #D2AD95;
 }
 
 .main-goods__list-text {
@@ -162,7 +162,7 @@
 }
 
 .main-goods__list-text a:hover {
-    color: #988676;
+    color: #D2AD95;
 }
 
 .main-goods__list-price {
@@ -203,7 +203,7 @@
 }
 
 .main-goods__link:hover {
-    color: #988676;
+    color: #D2AD95;
 }
 
 .main-discount {
@@ -248,7 +248,7 @@
 }
 
 .main-discount__list-subtitle a:hover {
-    color: white;
+    color: #D2AD95;
 }
 
 .main-discount__list-text {
@@ -268,7 +268,7 @@
 }
 
 .main-discount__list-text a:hover {
-    color: #988676;
+    color: #D2AD95;
 }
 
 .main-discount__list-price {
@@ -310,7 +310,7 @@
 }
 
 .main-discount__link:hover {
-    color: #988676;
+    color: #D2AD95;
 }
 
 .main-brands {
@@ -355,7 +355,7 @@
 }
 
 .brands-content__link:hover {
-    color: #988676;
+    color: #D2AD95;
 }
 
 .brands-content__img {
@@ -373,7 +373,7 @@
 }
 
 .main-brands__link:hover {
-    color: #988676;
+    color: #D2AD95;
 }
 
 .gg {
@@ -409,7 +409,7 @@
 }
 
 .main-showrooms__link:hover {
-    color: #988676;
+    color: #D2AD95;
 }
 
 .article-news {
@@ -444,7 +444,7 @@
 }
 
 .article-news__link:hover {
-    color: #988676;
+    color: #D2AD95;
 }
 
 .article-news__list-item {

@@ -21,7 +21,7 @@
 }
 
 .header-mainList a:hover {
-    color: var(--brown);
+    color: #D2AD95;
 }
 
 .header-mainList-block1 {
@@ -49,7 +49,7 @@
 }
 
 .header-list a:hover {
-    color: var(--brown);
+    color: #D2AD95;
 }
 
 .header-list__item-link {
@@ -70,7 +70,7 @@
 }
 
 .header-mainList__icons a:hover svg path{
-    fill: var(--brown);
+    fill: #D2AD95;
 }
 
 .header-mainList__logo {
