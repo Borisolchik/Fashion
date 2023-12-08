@@ -57,7 +57,7 @@ const headerMenu = document.body.querySelector('.header__menu')
 
 if (iconMenu) {
     const menuBody = document.body.querySelector('.menu__body')
-    headerMenu.addEventListener('click', function (e) {
+    iconMenu.addEventListener('click', function (e) {
         document.body.classList.toggle('_lock')
         iconMenu.classList.toggle('_active')
         menuBody.classList.toggle('_active')
