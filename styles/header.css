@@ -166,13 +166,12 @@
 
     .header__container {
         max-width: 1200px;
-        padding: 17px 10px 12.5px;
+        padding: 17px 10px 13px 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin: 0 auto;
     }
-
 
     .header__logo {
         z-index: 5;

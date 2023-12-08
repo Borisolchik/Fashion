@@ -273,12 +273,36 @@
     letter-spacing: 0.7px;
 }
 
+.main-goods__list-subtitle a {
+    margin-top: 17px;
+    color: #988676;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.main-goods__list-subtitle a:hover{
+    color: #D2AD95;
+}
+
 .main-goods__list-text {
     margin-top: 13px;
     color: #565859;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.7px;
+}
+
+.main-goods__list-text a{
+    margin-top: 13px;
+    color: #565859;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+.main-goods__list-text a:hover {
+    color: #D2AD95;
 }
 
 .main-goods__list-price {

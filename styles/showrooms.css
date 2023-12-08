@@ -71,15 +71,28 @@
     color: var(--blgray);
 }
 
+.showroom-content__tel a {
+    text-decoration: none;
+    color: var(--blgray);
+}
+
+.showroom-content__tel a:hover {
+    color: #D2AD95;
+}
+
 .showroom-content__desc {
     margin-top: 16px;
     color: var(--blgray);
 }
 
 .showroom-content__link {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     margin-top: 32px;
     display: inline-block;
+}
+
+.showroom-content__link:hover {
+    color: #D2AD95;
 }
 
 @media screen and (max-width: 900px) {
