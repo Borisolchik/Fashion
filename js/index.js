@@ -378,10 +378,10 @@ function productsGenderWomenWiew() {
         p2Element.innerText = '535 BYN';
         divElement.appendChild(p2Element);
 
-        const buttonElement = document.createElement('button');
-        buttonElement.className = 'catalog-goods__list-btn';
-        buttonElement.innerText = 'Оставить заявку';
-        divElement.appendChild(buttonElement);
+        // const buttonElement = document.createElement('button');
+        // buttonElement.className = 'catalog-goods__list-btn';
+        // buttonElement.innerText = 'Оставить заявку';
+        // divElement.appendChild(buttonElement);
 
         women.appendChild(liElement);
     })

@@ -215,7 +215,7 @@
     }
 
     .menu__sub-list li {
-        margin: 0 0 5px 0;
+        margin: 0 0 5px 15px;
     }
 
     .menu__sub-list li:last-child {
