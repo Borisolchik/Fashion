@@ -40,6 +40,7 @@ $('.multiple-items2').slick({
             breakpoint: 900,
             settings: {
                 autoplay: false,
+                swipeToSlide: true,
                 slidesToShow: 1,
                 speed: 1000,
                 arrows : false,

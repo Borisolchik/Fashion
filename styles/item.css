@@ -738,7 +738,7 @@
 
     /*Слайдер-похожие*/
     .multiple-items2 {
-        padding: 0 88px;
+        padding: 0;
     }
 
     .multiple-items2 .slick-list {
@@ -746,7 +746,7 @@
     }
 
     .multiple-items2 .slick-slide {
-        margin: 0;
+        margin: 0 20px;
     }
 
     .multiple-items2 .slick-prev {
