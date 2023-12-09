@@ -53,17 +53,16 @@ if (isMobile.any()) {
 }
 
 const iconMenu = document.body.querySelector('.menu__icon')
-const headerMenu = document.body.querySelector('.header__menu')
+const iconMenuBlock = document.body.querySelector('.menu__icon-block')
 
 if (iconMenu) {
     const menuBody = document.body.querySelector('.menu__body')
-    iconMenu.addEventListener('click', function (e) {
+    iconMenuBlock.addEventListener('click', function (e) {
         document.body.classList.toggle('_lock')
         iconMenu.classList.toggle('_active')
         menuBody.classList.toggle('_active')
     })
 }
-
 
 function openInfo(evt, info) {
     var i, tabcontent, tablinks;
@@ -78,4 +77,3 @@ function openInfo(evt, info) {
     document.getElementById(info).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
