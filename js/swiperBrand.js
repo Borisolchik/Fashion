@@ -39,11 +39,11 @@ $('.multiple-items2').slick({
         {
             breakpoint: 900,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 speed: 1000,
                 arrows : false,
                 centerMode: true,
-                centerPadding: '50px',
+                centerPadding: '80px',
             }
         },
     ]
