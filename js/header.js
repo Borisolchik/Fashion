@@ -2,7 +2,7 @@ $(function() {
     let header = $('.header-scroll');
 
     $(window).scroll(function() {
-        if($(this).scrollTop() > 80) {
+        if($(this).scrollTop() > 95) {
             header.addClass('header_fixed');
         } else {
             header.removeClass('header_fixed');
