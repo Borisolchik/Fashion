@@ -564,7 +564,7 @@
     }
 
     .item-wrapper {
-        margin-top: 0px;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
         gap: 36px;
@@ -586,7 +586,7 @@
     }
 
     .item-imgs__block2 img {
-        width: 22%;
+        /*width: 22%;*/
     }
 
     .item-imgs__block2 {
