@@ -4,11 +4,21 @@
 }
 
 .policy-desc {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 
-.policy :nth-child(3) {
-    margin-top: 30px;
+
+.policy-title {
+    margin-bottom: 35px;
+}
+
+.policy-desc-title {
+    color: var(--brown);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    margin-top: 35px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1359px) {
@@ -18,13 +28,13 @@
     }
     
     .policy-desc {
-        margin-top: 35px;
+        /*margin-top: 35px;*/
     }
 }
 
 @media screen and (max-width: 900px) {
     .policy-title {
-        font-size: 25px;
+        font-size: 22px;
     }
     
     .policy {
@@ -33,10 +43,15 @@
     }
     
     .policy-desc {
-        margin-top: 25px;
+        /*margin-top: 25px;*/
     }
     
-    .policy :nth-child(3) {
-        margin-top: 25px;
+    /*.policy :nth-child(3) {*/
+    /*    margin-top: 25px;*/
+    /*}*/
+
+    .policy-desc-title {
+        font-size: 16px;
+        margin-top: 20px;
     }
 }
