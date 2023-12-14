@@ -661,6 +661,7 @@
     .main-discount {
         padding-top: 27px;
         padding-bottom: 58px;
+        border-radius: 0;
     }
 
     .main-discount__title-box {
